@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        stringList.add("Farrux");
-        stringList.add("Jasur");
-        stringList.add("Salom");
-        stringList.add("Nima");
-        stringList.add("Gaplar");
-        stringList.add("Android");
-        stringList.add("Kotlin");
-        stringList.add("KMM");
+        stringList.add("One");
+        stringList.add("Two");
+        stringList.add("Three");
+        stringList.add("Four");
+        stringList.add("Five");
+        stringList.add("Six");
+        stringList.add("Seven");
+        stringList.add("Eight");
 
         recyclerView = findViewById(R.id.recyclerViewContainer);
 
